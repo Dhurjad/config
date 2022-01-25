@@ -7,10 +7,10 @@ spring:
       server:
         git:
           uri: https://gitlab.com/Dhurjad/Config.git
-          default-label: main
+          #default-label: main
 
 server:
-  port: 8888
+  port: 8085
 management:
   endpoints:
     web:
